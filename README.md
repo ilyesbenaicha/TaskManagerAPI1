@@ -1,22 +1,22 @@
-# 🧩 TaskManagerAPI
+#  TaskManagerAPI
 
 A simple .NET 8 Web API for managing users and tasks with role-based access control (RBAC). Built with Entity Framework Core (In-Memory), clean architecture, and Swagger documentation.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ CRUD operations for Users and Tasks
-- 🔐 Role-based access control (Admin/User)
-- 🧠 Middleware for user context injection
-- 🗂️ Clean architecture with services and repositories
-- 🧪 Unit tests using xUnit and Moq
-- 📘 Swagger/OpenAPI documentation
-- 🧬 In-memory database with seeded data
+-  CRUD operations for Users and Tasks
+-  Role-based access control (Admin/User)
+- Middleware for user context injection
+-  Clean architecture with services and repositories
+-  Unit tests using xUnit and Moq
+  - Swagger/OpenAPI documentation
+-  In-memory database with seeded data
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 - .NET 8
 - Entity Framework Core (InMemory)
@@ -27,14 +27,14 @@ A simple .NET 8 Web API for managing users and tasks with role-based access cont
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Visual Studio 2022+ or VS Code
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 TaskManagerAPI/ 
 ├── Controllers/ 
 ├── Data/ 
@@ -49,7 +49,7 @@ TaskManagerAPI/
 
 ---
 
-## 🧪 Seeded Data
+##  Seeded Data
 
 | User Type | ID | Username | Role  |
 |-----------|----|----------|-------|
@@ -66,9 +66,9 @@ Use the `X-User-Id` header to simulate authentication.
 
 ---
 
-## 🧰 How to Build and Run
+##  How to Build and Run
 
-### 🔧 Build the Project
+###  Build the Project
 
 ```bash
 dotnet build
